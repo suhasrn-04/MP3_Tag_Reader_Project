@@ -4,6 +4,8 @@
 #include <string.h>
 #include <stdlib.h>
 
+
+
 Status read_and_validate_edit_args(int argc, char *argv[], MP3 *mp3)
 {
     printf("Validating editing arguments!!!\n");

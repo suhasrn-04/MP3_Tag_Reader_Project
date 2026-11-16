@@ -6,8 +6,6 @@
 
 Status read_and_validate_view_args(int argc, char *argv[], MP3 *mp3)
 {
-    printf("Validating viewing arguments!!!\n");
-
     if(argv[2] == NULL)
     {
         printf("Error -> Soure file name not found.\n");
