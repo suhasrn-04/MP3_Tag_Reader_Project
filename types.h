@@ -6,15 +6,15 @@ typedef unsigned int uint;
 
 typedef enum
 {
-    e_success,  
-    e_failure   
+    success,  
+    failure   
 } Status;
 
 typedef enum
 {
-    e_view,       
-    e_edit,       
-    e_unsupported   
+    view,       
+    edit,       
+    unsupported   
 } OperationType;
 
 #endif
